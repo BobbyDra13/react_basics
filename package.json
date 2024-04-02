@@ -1,0 +1,26 @@
+{
+  "name": "newstart",
+  "version": "1.0.0",
+  "description": "This is react from zero",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/BobbyDra13/react_basics)"
+  },
+  "keywords": [],
+  "author": "Manas Chandra",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserlist" : [
+    "last 2 versions"
+  ]
+}
