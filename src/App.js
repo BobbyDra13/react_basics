@@ -12,8 +12,6 @@ import { Provider } from "react-redux";
 import appStore from "./utilis/appStore";
 import Cart from "./components/Cart";
 
-const AboutLazy = lazy(() => import("./components/About"));
-
 const AppLayout = () => {
   const [userName, setUserName] = useState();
 
@@ -50,11 +48,7 @@ const approute = createBrowserRouter([
       },
       {
         path: "/about",
-        element: (
-          <Suspense fallback={<h1>Loading.......</h1>}>
-            <AboutLazy />
-          </Suspense>
-        ),
+        element: <About />,
       },
       {
         path: "/contact",
